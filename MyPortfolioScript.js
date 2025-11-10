@@ -56,10 +56,11 @@ document.addEventListener("DOMContentLoaded", function () {
     downloadBtns.forEach(btn => {
         btn.addEventListener("click", () => {
             const link = document.createElement("a");
-            link.href = "assets/CV-Attapol.pdf"; // 👈 ใส่ path ไฟล์จริง
+            link.href = "./CV_example.pdf"; // 👈 ใส่ path ไฟล์จริง
             link.download = "Attapol_Natekunchorn_CV.pdf";
             link.click();
         });
     });
+
 
 });
